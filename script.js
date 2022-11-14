@@ -16,7 +16,7 @@ function main(currentTime) {
   if (gameOver) {
     audio2.play();
     if (confirm("Game Over")) {
-      window.location = "/";
+      window.location.reload();
     } else {
       window.close();
     }
